@@ -4,7 +4,13 @@ package com.randellhera;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java 👋🏾");
-        System.out.println(10 + 10);
+//        primitives
+        int num1 = 10;
+        int num2 = 10;
+        int result = num1 + num2;
+        System.out.println(result);
+        double pi = 3.14;
+        boolean isAdult = true;
+        char a = 'A';
     }
 }
