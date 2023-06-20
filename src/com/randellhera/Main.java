@@ -4,13 +4,15 @@ package com.randellhera;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-//        primitives
-        int num1 = 10;
-        int num2 = 10;
-        int result = num1 + num2;
-        System.out.println(result);
-        double pi = 3.14;
-        boolean isAdult = true;
-        char a = 'A';
+        String fName = "Randell";
+        String lName = "Hera";
+        String fullName = fName + lName;
+
+        System.out.println(fullName.toUpperCase());
+        System.out.println(fullName.toLowerCase());
+        System.out.println(fullName.substring(7));
+        System.out.println(" ".isEmpty());
+        System.out.println(" ".isBlank());
+        System.out.println(" a ".trim());
     }
 }
