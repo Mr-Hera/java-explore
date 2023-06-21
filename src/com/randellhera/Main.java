@@ -7,23 +7,12 @@ import java.util.Arrays;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-//        loops and arrays
-        String[] names = {
-                "James",
-                "Nadia",
-                "Sophia",
-                "Alex",
-                "Aisha",
-        };
-
-//        loop
-//        for(int i = 0; i < names.length; i++) {
-//            System.out.println(names[i]);
-//        }
-
-//        reverse order
-        for(int i = names.length - 1; i >= 0; i--) {
-            System.out.println(names[i]);
+//        if statements
+        if (false) {
+            System.out.println("this code runs...");
+        } else {
+            System.out.println("this code does not run!");
         }
+        System.out.println("code outside.");
     }
 }
