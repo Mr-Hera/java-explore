@@ -13,15 +13,43 @@ public class Main {
         - Optional Return Value
     */
 
-    private static int add(int num1, int num2) {
-        int result = num1 + num2;
-        return result;
+    public static void main(String[] args) {
+//        classes
+        Cat cat = new Cat("Tom");
+        cat.hunts();
+        Rat rat = new Rat("Jerry");
+        rat.runs();
     }
 
-    public static void main(String[] args) {
-        int result = add(10, 10);
-        int result2 = add(10, 100);
-        System.out.println(result);
-        System.out.println(result2);
+    static class Cat {
+        String name;
+
+        public Cat () {
+
+        }
+
+        public Cat(String name) {
+            this.name = name;
+        }
+        void hunts() {
+            System.out.println(name + " hunts...");
+        }
+    }
+
+    static class Rat {
+        String name;
+
+        public Rat() {
+
+        }
+
+        public Rat(String name) {
+            this.name = name;
+        }
+
+        void runs() {
+            System.out.println(name + " runs!");
+        }
+
     }
 }
